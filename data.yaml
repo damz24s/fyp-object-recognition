@@ -1,0 +1,12 @@
+train: C:/Users/jack/Documents/FYP/customDataset-v1/train/images
+val: C:/Users/jack/Documents/FYP/customDataset-v1/valid/images
+test: C:/Users/jack/Documents/FYP/customDataset-v1/test/images
+nc: 7
+names: ['Glasses', 'Keys', 'Mobile Phone', 'Mug', 'Tv Remote', 'Watch', 'WheelChair']
+
+roboflow:
+  workspace: object-detection1-wvtyn
+  project: elderlyobjects
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/object-detection1-wvtyn/elderlyobjects/dataset/1
